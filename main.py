@@ -4,7 +4,7 @@ from input_handlers import EventHandler
 
 
 def main():
-    screen_width = 80
+    screen_width = 70
     screen_height = 50
 
     player_x = int(screen_width / 2)
