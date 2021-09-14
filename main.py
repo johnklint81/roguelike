@@ -10,7 +10,7 @@ def main():
     screen_height = 50
 
     map_width = 80
-    map_height = 46
+    map_height = 45
 
     tileset = tcod.tileset.load_tilesheet(
         "dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
