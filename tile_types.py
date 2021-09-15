@@ -20,6 +20,7 @@ tile_dt = np.dtype(
     ]
 )
 
+
 def new_tile(
         *,  # Enforce the use of keywords, so that parameter order doesn't matter.
         walkable: int,
@@ -31,7 +32,7 @@ def new_tile(
 
 
 floor = new_tile(
-    walkable=True, transparent=True, dark=(ord(" "), (255, 255, 255), (50, 50, 150)),
+    walkable=True, transparent=True, dark=(ord(" "), (255, 255, 255), (50, 50, 50)),
 )
 wall = new_tile(
     walkable=False, transparent=False, dark=(ord(" "), (255, 255, 255), (0, 0, 100)),
