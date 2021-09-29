@@ -49,9 +49,9 @@ class GameMap:
                 return entity
         return None
 
-    def get_actor_at_location(self, x: int, y:int) -> Optional[Actor]:
+    def get_actor_at_location(self, x: int, y: int) -> Optional[Actor]:
         for actor in self.actors:
-            if actor.x == x and actor.y ==y:
+            if actor.x == x and actor.y == y:
                 return actor
         return None
 
