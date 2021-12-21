@@ -119,7 +119,7 @@ class FireballDamageConsumable(Consumable):
                 targets_hit = True
 
         if not targets_hit:
-            raise Impossible("There are n o targets in the radius.")
+            raise Impossible("There are no targets in the radius.")
         self.consume()
 
 
